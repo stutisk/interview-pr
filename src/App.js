@@ -1,23 +1,12 @@
-
 import "./App.css";
-import { Index } from "./Components";
-import { Counter } from "./Components/Counter";
-import { Form } from "./Components/Form";
-
-
-
+import { Accordin } from "./Components/Accordin/Accordin";
 
 function App() {
   return (
     <div className="App">
-    {/* <Counter/> */}
-    {/* <Form/> */}
-    <Index/>
+      <Accordin />
     </div>
   );
 }
 
 export default App;
-
-
-
